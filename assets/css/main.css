@@ -77,6 +77,16 @@ body{
 
 /* media query */
 
+@media screen and (max-width: 414px) {
+    .text-main-h1, h1{
+        font-size: 35px;
+    }
+    .btn-main{
+        width: 150px;
+        height: 50px;
+    }
+}
+
 @media (max-width: 768px){
     .imgcardinfo{
         display: none;
