@@ -1,0 +1,106 @@
+/* After Header */
+
+body{
+    background-color: #f7f7f7;
+}
+
+.text-main-h1, h1{
+    margin-top: 100px;
+    font-family: 'Iner-Bold';
+    font-size: 50px;
+    color: #101130;
+}
+
+.texth1-university{
+    margin-top: 200px;
+    font-family: 'Iner-Bold';
+    font-size: 50px;
+    color: #101130;
+}
+
+.text-main-p, p{
+    font-family: 'Iner-Regular';
+    font-size: 18px;
+    text-align: left;
+    max-width: 447px;
+    margin-top: 35px;
+    color: #606176;
+}
+
+.textp-university, p{
+    font-family: 'Iner-Regular';
+    font-size: 18px;
+    text-align: left;
+    margin-top: auto;
+    color: #606176;
+}
+
+.university{
+    position: absolute;
+    right: 14rem;
+    top: 55rem;
+    max-width: 50%;
+}
+
+
+
+
+.btn-main{
+    background-color: #F77E53;
+    color: #fff;
+    border: none;
+    font-family: 'Iner-Light';
+    position: relative;
+    display: block;
+    border-radius: 12px;
+    top: 15px;
+    width: 200px;
+    height: 60px;
+    left: 0;
+}
+
+.boy{
+    /* imagem boy */
+    position: absolute;
+    max-width: 50%;
+    top: 145px;
+    right: 10rem;
+}
+
+.imgcardinfo{
+    /* imagens informações */
+    position: absolute;
+    max-width: 45%;
+    top: 19rem;
+    right: 25px;
+}
+
+/* media query */
+
+@media (max-width: 768px){
+    .imgcardinfo{
+        display: none;
+    }
+}
+
+@media (max-width: 991px){
+    .boy{
+        display: none;
+    } 
+}
+
+@media (min-width: 992px){
+    .imgcardinfo{
+        display: none;
+    } 
+}
+
+@media (max-width: 991px){
+    .university{
+        display: none;
+    } 
+}
+
+
+
+

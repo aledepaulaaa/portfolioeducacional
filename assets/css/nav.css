@@ -1,0 +1,103 @@
+/* Navigation */
+nav{
+    font-size: 16px;
+}
+.navbar{
+    position: relative;
+    text-align: center;
+    top: 8px;
+}
+.nav{
+    position: relative;
+    right: 35%;
+    top: 2px;
+    gap: 1rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
+
+#btnMenu{
+    display: none;
+}
+
+.btn{
+    position: absolute;
+    background-color: #E8F1FF;
+    color: #2378FF;
+    right: 15%;
+    height: 50px;
+    width: 125px;
+    font-weight: bold;
+}
+
+/* Menu Mobile */
+@media (max-width: 991px){
+    #btnMenu{
+        display: block;
+    }
+    #menu{
+        display: block;
+        text-align: left;
+        background-color: #F77E53;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        top: 70px;
+        right: 0;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    .btn{
+        display: none;
+    }
+    #nav.active #menu{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: #e8f1ffa6 1px solid;
+    }
+    #btnMenu{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+        border: none;
+        background:none;
+        cursor: pointer;
+        gap: .5rem;
+
+    }
+    #hamburguer{
+        border-top: 2px solid;
+        width: 40px;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: "";
+        display: block;
+        width: 40px;
+        height: 2px;
+        background:#2378FF;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
