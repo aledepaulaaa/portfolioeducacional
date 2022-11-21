@@ -75,6 +75,9 @@ body{
     right: 25px;
 }
 
+
+
+
 /* media query */
 
 @media screen and (max-width: 414px) {
@@ -87,11 +90,36 @@ body{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+
+    .imgbox{
+        display: flex;
+        width: 100%;
+    
+    }
     .imgcardinfo{
-        display: none;
+        position:absolute;
+        max-width: 285px;
+        top: 40rem;
+        
+    }
+    .texth1-university{
+        position: absolute;
+        top: 45rem;
+        left: 50px;
+        right: 50px;
+    }
+    .textp-university{
+        position: absolute;
+        top: 67rem;
+        left: 50px;
+        right: 50px;
     }
 }
+
+
+
+
 
 @media (max-width: 991px){
     .boy{
@@ -107,9 +135,50 @@ body{
 
 @media (max-width: 991px){
     .university{
-        display: none;
+        position: absolute;
+        right: 25px;
     } 
 }
+
+@media (max-width: 768px){
+    .university{
+        position: absolute;
+        max-width: 80%;
+        right: 135px;
+        left: 50px;
+        top: 72rem;
+    }
+}
+
+@media (max-width: 485px){
+    .university{
+        display: none;
+    }
+}
+
+@media (min-width: 485px){
+    .university2Mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 300px){
+    .university2Mobile{
+        display: none;
+    }
+}
+
+
+@media (max-width: 484px){
+  
+    .university2Mobile{
+        position: absolute;
+        top: 72rem;
+        right: 50px;
+        left: 50px;
+    }
+}
+
 
 
 
