@@ -1,0 +1,86 @@
+.boxcourses{
+    position: absolute;
+    width: 1200px;
+    height: 562px;
+    left: 400px;
+    top: 2100px;
+    border-radius: 12px;
+}
+
+.boxCard{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 150px;
+    margin-top: 12rem;
+}
+
+
+
+.boxcourses h1{
+    position: absolute;
+    bottom: 26.5rem;
+}
+
+.btnCourses{
+    position: absolute;
+    padding: 10px;
+    top: 4.5rem;
+    right: 2rem;
+    width: 150px;
+    font-weight: 400;
+    border-radius: 12px;
+}
+
+.btnBox{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 380px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 400;
+}
+
+.iconCart{
+    position: absolute;
+    top: 12px;
+    left: 78px;
+}
+
+.iconUser{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iconTime{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+.card{
+    background-color: #e2e2e200;
+    border: none;
+    width: 100%;
+}
+
+.card-body{
+    padding: 0;
+}
+.card-title{
+    position: relative;
+    
+}
+.cardtexto1{
+    position: relative;
+    bottom: 54px;
+    left: 28px;
+}
+
+.cardtexto2{
+    position: relative;
+    bottom: 6rem;
+    left: 12.5rem;
+}
+

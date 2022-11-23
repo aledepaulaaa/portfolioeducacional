@@ -1,0 +1,88 @@
+.titlesecao1{
+    position: absolute;
+    left: 45%;
+    top: 19.5em;
+    bottom: 0;
+}
+
+.boytwo{
+    margin-top: 4rem;
+}
+
+.boxpeoples{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    position: relative;
+    padding: 20px;
+    width: 239px;
+    height: 196px;
+    left: 5.5rem;
+    bottom: 15rem;
+}
+
+.textboxpeoples::before{
+    font-weight: bold;
+    font-family:  "Iner-Bold";
+    font-size: 18px;
+    content: "56,5470 +";
+    position: relative;
+    bottom: 13rem;
+    left: 1.8rem;
+}
+
+.textboxpeoples p::before{
+    font-family:  "Iner-Light";
+    font-size: 12px;
+    content: "Peoples are learning";
+    position: relative;
+    bottom: 13.6rem;
+    left: 1rem;
+}
+
+.imgpeoples{
+    margin-top: 6rem;
+    padding-left: 22px;
+}
+.imgpeoples img{
+    margin-left: -18px;
+}
+
+span{
+    background-color: #F77E53;
+    position: absolute;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-left: -16px;
+}
+
+span::before{
+    color:#ffffff;
+    content: "3+";
+    font-weight: bold;
+    font-family: "Iner-Bold";
+    position: relative;
+    left: 14.5px;
+    top: 8.5px;
+}
+
+.circlebox{
+    position: relative;
+    left: 10rem;
+    bottom: 1rem;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-column-gap: 150px;
+    row-gap: 50px;
+    margin-left: 35rem;
+    margin-top: -25rem;
+    max-width: 65rem;
+}
+
+.items, img{
+    margin-bottom: 18px;
+}
