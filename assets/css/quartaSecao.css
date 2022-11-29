@@ -1,0 +1,44 @@
+.secao4{
+    display: grid;
+    grid-template-columns: 650px 650px;
+    position: absolute;
+    top: 220rem;
+    left: 22rem;
+    gap: 10rem;
+}
+
+
+.titulo-testemunha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+}
+
+.items-testemunha{
+    display: block;
+    position: relative;
+    left: 5rem;
+    bottom: 5.5rem;
+}
+
+
+.botaocarousel{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+.carousel-inner{
+    width: 100%;
+    position: relative;
+    left: 25rem;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(/assets/img/arrow-left.svg);
+}
+.carousel-control-next-icon{
+    background-image: url(/assets/img/arrow-right.svg);
+    margin-left: -550px;
+}
+

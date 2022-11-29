@@ -48,7 +48,7 @@
     margin-left: -18px;
 }
 
-span{
+.spanpeoples{
     background-color: #F77E53;
     position: absolute;
     border-radius: 50%;
@@ -57,7 +57,7 @@ span{
     margin-left: -16px;
 }
 
-span::before{
+.imgpeoples span::before{
     color:#ffffff;
     content: "3+";
     font-weight: bold;

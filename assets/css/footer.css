@@ -1,0 +1,26 @@
+.footer{
+    position: absolute;
+    top: 320rem;
+    width: 1140px;
+}
+
+.store-footer{
+    display: grid;
+    position: absolute;
+    left: 65rem;
+    bottom: 8rem;
+}
+.copy-footer{
+    font-size: 14px;
+}
+
+.li-footer{
+    display: grid;
+    margin-top: -150px;
+    margin-left: 28rem;
+    grid-template-columns:250px 250px 250px;
+}
+
+.title-footer{
+    margin-left: 14px;
+}
